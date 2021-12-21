@@ -30,7 +30,13 @@ const projectsData = [
     name: 'Project E',
     description: 'teste texto teste texto teste texto testetexto teste texto testetexto teste texto testetexto teste texto teste',
     image: stock,
-  }
+  },
+  {
+    id: 6,
+    name: 'Project F',
+    description: 'teste texto teste texto teste texto testetexto teste texto testetexto teste texto testetexto teste texto teste',
+    image: stock,
+  },
 ];
 
 export default projectsData;
