@@ -33,7 +33,10 @@
 
 .title {
   background-color: red;
-  grid-area: title;}
+  font-size: 7vh;
+  text-align: center;
+  grid-area: title;
+}
 
 .content {
   background-color: blue;
@@ -41,6 +44,19 @@
 }
 
 .footer {
+  text-align: center;
   background-color: green;
   grid-area: footer;
+}
+
+/* Projetos */
+
+.project {
+  border: 1px solid pink;
+  display: flex;
+  align-items: center;
+}
+
+.project-image {
+  width: 100px;
 }
