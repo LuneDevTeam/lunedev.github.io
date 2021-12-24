@@ -1,5 +1,6 @@
-import HenriqueImg from './henrique.png'
-import IagoImg from './iago.jpeg'
+// import HenriqueImg from '../images/Funcionarios/henrique.png'
+// import IagoImg from '../images/Funcionarios/iago.jpeg'
+import EmpregadaFantasma from '../images/Funcionarios/empregadafantasma.png'
 
 
 const employees = [
@@ -7,7 +8,7 @@ const employees = [
     id: 1,
     name: `Henrique 'Mono Aphelios'`,
     description: 'Esse texto tem 140 caracteres :) Integer vitae pulvinar eros. In leo neque, porta nec quam a, porta hendrerit aug. Neque porro quisquam est.',
-    image: HenriqueImg,
+    image: EmpregadaFantasma,
     altimage: 'Mono Aphelios',
     linkedin: 'https://www.linkedin.com/in/henrique-rubido/',
   },
@@ -15,7 +16,31 @@ const employees = [
     id: 2,
     name: `Goia 'Mono Tudo'`,
     description: 'Esse texto tem 140 caracteres :) Integer vitae pulvinar eros. In leo neque, porta nec quam a, porta hendrerit aug. Neque porro quisquam est.',
-    image: IagoImg,
+    image: EmpregadaFantasma,
+    altimage: 'All',
+    linkedin: 'https://www.linkedin.com/in/goia/',
+  },
+  {
+    id: 3,
+    name: `Goia 'Mono Tudo'`,
+    description: 'Esse texto tem 140 caracteres :) Integer vitae pulvinar eros. In leo neque, porta nec quam a, porta hendrerit aug. Neque porro quisquam est.',
+    image: EmpregadaFantasma,
+    altimage: 'All',
+    linkedin: 'https://www.linkedin.com/in/goia/',
+  },
+  {
+    id: 4,
+    name: `Goia 'Mono Tudo'`,
+    description: 'Esse texto tem 140 caracteres :) Integer vitae pulvinar eros. In leo neque, porta nec quam a, porta hendrerit aug. Neque porro quisquam est.',
+    image: EmpregadaFantasma,
+    altimage: 'All',
+    linkedin: 'https://www.linkedin.com/in/goia/',
+  },
+  {
+    id: 5,
+    name: `Goia 'Mono Tudo'`,
+    description: 'Esse texto tem 140 caracteres :) Integer vitae pulvinar eros. In leo neque, porta nec quam a, porta hendrerit aug. Neque porro quisquam est.',
+    image: EmpregadaFantasma,
     altimage: 'All',
     linkedin: 'https://www.linkedin.com/in/goia/',
   },

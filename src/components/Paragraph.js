@@ -4,7 +4,7 @@ export default class Paragraph extends Component {
 	render() {
 		const { paragraphContent } = this.props;
 		return (
-			<div>
+			<div className="paragraph">
 				<h2>{ paragraphContent }</h2>
 			</div>
 		)

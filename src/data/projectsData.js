@@ -1,4 +1,4 @@
-import stock from '../images/stockIMG.jpg';
+import stock from '../images/Site/stockIMG.jpg';
 
 const projectsData = [
   {

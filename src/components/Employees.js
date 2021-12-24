@@ -1,14 +1,20 @@
 import React, { Component } from 'react'
+import * as FaIcons from 'react-icons/fa';
+
 
 export default class Employees extends Component {
 	render() {
-		const { sourceImage, altText, employeeName, employeeDescription, className, linkedin } = this.props;
+		const { sourceImage, altText, employeeName, employeeDescription, className, linkedin, employeeSide } = this.props;
 		return (
 			<div className={ className }>
-				<img src={sourceImage} alt={ altText } />
-				<button type='button' id={altText}><a href={ linkedin } target="_blank" rel="noreferrer">Linkedin</a></button>
+				<div className="photo-logo">
+					<img src={sourceImage} alt={ altText } className="employee-img"/>
+					<a href={ linkedin } target="_blank" rel="noreferrer" className="linkedin-icon"><FaIcons.FaLinkedinIn id={altText}/></a>
+				</div>
+				<div className={ employeeSide }>
 				<h3>{ employeeName }</h3>
-				<section>{ employeeDescription }</section>
+				<p>{ employeeDescription }</p>
+				</div>
 			</div>
 		)
 	}
