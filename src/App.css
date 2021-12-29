@@ -22,8 +22,10 @@
 }
 
 .title {
-  font-size: 5vh;
+  font-size: 5vw;
+  margin-top: 3vh;
   grid-area: title;
+  color: #8415ee;
 }
 
 .content {
@@ -33,13 +35,14 @@
   justify-content: center;
   grid-area: content;
   color: white;
-  margin-top: 5vh;
+  margin-top: 3vh;
 }
 
 .footer {
-  background-color: green;
+  background-color: white;
   grid-area: footer;
-  margin-top: 10vh;
+  margin-top: 3vh;
+  width: 100%;
 }
 
 .paragraph {  
@@ -48,15 +51,11 @@
   width: 50%;
 }
 
-h1 {
-  font-size: 8vh;
-  color: #8415ee;
-
-}
-
 /* Navbar */
+/* background não esta bom  */
 
 .navbar {
+  background: url(../src/images/Site/bg_main.png);
   grid-area: navbar;
   background-color: #8415ee;
   height: 80px;
@@ -66,7 +65,7 @@ h1 {
 }
 
 .logo-navbar {
-  width: 50vw;
+  width: 45%;
   margin-left: 3vh;
 }
 
@@ -75,15 +74,15 @@ h1 {
   margin-top: 1vh;
 }
 
-.menu-close {
-  color: white;
-  font-size: 7vh;
-  margin-left: 3vh;
-  margin-top: 1vh;
+.menu-bars img {
+  width: 100%;
 }
 
-.menu-bars img {
-  width: 15vw;
+.menu-close {
+  color: white;
+  font-size: 5vh;
+  margin-left: 3vh;
+  margin-top: 1vh;
 }
 
 .nav-menu {
@@ -103,7 +102,7 @@ h1 {
 
 .links-navbar {
   display: flex;
-  padding: 2vh 0vh 4vh 1vh;
+  padding: 2vh 0vh 1vh 1vh;
   list-style: none;
   height: 10vh;
 }
@@ -118,7 +117,7 @@ h1 {
 }
 
 .links-navbar a:hover {
-  background-color: white;
+  background-color: #8415ee;
   color: black;
 }
 
@@ -131,7 +130,7 @@ h1 {
 }
 
 .nav-buttons {
-  margin-left: 3vh;
+  margin-left: 1vh;
 }
 
 /* Sobre Nós */
@@ -189,24 +188,117 @@ h1 {
 }
 
 .linkedin-icon {
-  color:white;
-  border-radius: 50%;
-  background: purple;
-  padding: 1.5vh;
   position: relative;
-  bottom: 6vw;
+  bottom: 8vw;
   left: 8vw;
+  width: 40%;
 }
-
-/* falta corrigir o icon. nao ta legal */
 
 /* Projetos */
 
-.project {
-  border: 1px solid pink;
+.bg-projects {
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.project-left {
   display: flex;
+  align-items: center;
+  padding: 2.5vh;
+  align-content: center;
+}
+
+.project-side-left {
+  text-align: left;
+  margin-left: 2vh;
+}
+
+.project-side-left > .title {
+  font-size: 4vw;
+  text-shadow: 0px 2px 0px black;
+  margin-top: 0;
+}
+
+.project-right {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 2.5vh;
+}
+
+.project-side-right {
+  text-align: right;
+  margin-right: 2vh;
+}
+
+.project-side-right > .title {
+  font-size: 4vw;
+  text-shadow: 0px 2px 0px black;
+  margin-top: 0;
 }
 
 .project-image {
-  width: 100px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 30vw;
+  box-shadow: 5px 3px 5px black;
+}
+
+
+.project-description {
+  font-size: 5vw;
+  text-shadow: 1px 1px rgba(0,0,0,0.8);
+}
+
+
+/* Contato */
+
+#userForm {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+input, textarea {
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: 1px solid #8415ee;
+  color: white;
+  font-size: 2vh;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  width: 70vw;
+}
+
+textarea {
+  border: 1px solid #8415ee;
+  height: 20vh;
+}
+
+label {
+  color: #8415ee;
+  text-align: left;
+}
+
+.message {
+  text-align: center;
+}
+
+.submit-btn {
+  align-self: center;
+  margin-bottom: 3vh;
+  background-color: #8415ee;
+  border-radius: 20px;
+  width: 30vw;
+  color: white;
+  padding: 7px;
+}
+
+.contact-map {
+  width: 90vw;
+  height: 30vh;
 }

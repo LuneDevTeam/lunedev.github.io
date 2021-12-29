@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import * as FaIcons from 'react-icons/fa';
+// import * as FaIcons from 'react-icons/fa';
+import iconLinkedin from '../images/Site/icon_linkedin_purple.png'
 
 
 export default class Employees extends Component {
@@ -9,7 +10,7 @@ export default class Employees extends Component {
 			<div className={ className }>
 				<div className="photo-logo">
 					<img src={sourceImage} alt={ altText } className="employee-img"/>
-					<a href={ linkedin } target="_blank" rel="noreferrer" className="linkedin-icon"><FaIcons.FaLinkedinIn id={altText}/></a>
+					<a href={ linkedin } target="_blank" rel="noreferrer" ><img src={iconLinkedin} alt="linkedin icon" className="linkedin-icon"/></a>
 				</div>
 				<div className={ employeeSide }>
 				<h3>{ employeeName }</h3>
