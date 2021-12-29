@@ -302,3 +302,15 @@ label {
   width: 90vw;
   height: 30vh;
 }
+
+/* 404 page */
+
+.error-page {
+  height: 80vh;
+  background-image: url(images/Site/bg_404.png);
+}
+
+.error-page-img {
+  display: block;
+  width: 100vw;
+}

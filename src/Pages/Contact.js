@@ -1,6 +1,5 @@
 import emailjs from 'emailjs-com';
 import React from 'react';
-import Footer from '../components/Footer';
 import Title from '../components/Title';
 
 class Contact extends React.Component {
