@@ -1,19 +1,32 @@
 import React from "react";
+import CarouselDiv from "../components/CarouselDiv";
 import Footer from "../components/Footer"
 import WelcomeSection from "../components/WelcomeSection";
+import lunelogo from "../images/logo_lune.png"
 
 class Main extends React.Component {
   render() {
     return(
       <div>
         <WelcomeSection />
-        <Footer />
+        <div className="home-logo">
+          <img src={lunelogo} alt="logo da Lune" />
+        </div>
+        <CarouselDiv />
+        
+        <Footer /> 
       </div>
     )
   }
 }
 
 export default Main;
+
+// TODO:   component section home
+//        não sei fazer
+//        component instagram > h1 > insta da lune
+//        componnent com botões
+
 
 // TODO: Componente 1 - WelcomeSection
 // TODO: uma div com bg que contém:

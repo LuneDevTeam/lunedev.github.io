@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import bgimage from '../images/bg_ball.png'
 import Title from '../components/Title';
 import Paragraph from '../components/Paragraph';
 import Button from './Button';
