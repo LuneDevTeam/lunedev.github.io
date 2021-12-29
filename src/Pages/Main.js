@@ -7,7 +7,6 @@ class Main extends React.Component {
       <div>
         <div className="title">Home</div>
         <div className="content">Olá Home</div>
-        <Footer />
       </div>
     )
   }

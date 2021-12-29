@@ -37,8 +37,6 @@ class About extends React.Component {
             />
           );
         })}
-
-        <Footer />
       </div>
     );
   }

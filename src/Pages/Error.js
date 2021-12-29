@@ -6,7 +6,6 @@ class Error extends React.Component {
     return(
       <div>
         <div className="content">Error 404</div>
-        <Footer />
       </div>
     )
   }
