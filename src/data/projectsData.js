@@ -1,47 +1,55 @@
-import stock from '../images/stockIMG.jpg';
+import project1Bg from '../images/Projetos/bg_gero_portif.png';
+import project2Bg from '../images/Projetos/bg_solar_system.png';
+import project3Bg from '../images/Projetos/bg_to_do_list.png';
+import project4Bg from '../images/Projetos/bg_trunfo.png';
+import project5Bg from '../images/Projetos/bg_trybe_warts.png';
+
+import project1Cover from '../images/Projetos/cover_gero_portif.png';
+import project2Cover from '../images/Projetos/cover_solar_system.png';
+import project3Cover from '../images/Projetos/cover_to_do_list.png';
+import project4Cover from '../images/Projetos/cover_trunfo.png';
+import project5Cover from '../images/Projetos/cover_trybe_warts.png';
 
 const projectsData = [
   {
     id: 1,
-    name: 'Project A',
+    name: 'Portfólio',
     description:
-      'teste texto teste texto teste texto testetexto teste texto testetexto teste texto testetexto teste texto teste',
-    image: stock,
+      'O portfólio do nosso lunático mais maluco e completo!',
+    image: project1Cover,
+    bg: project1Bg
   },
   {
     id: 2,
-    name: 'Project B',
+    name: 'Solar System',
     description:
-      'teste texto teste texto teste texto testetexto teste texto testetexto teste texto testetexto teste texto teste',
-    image: stock,
+      'Conheça nosso sistema solar e suas missões principais! Um bom luner deve saber disso. ;)',
+    image: project2Cover,
+    bg: project2Bg
   },
   {
     id: 3,
-    name: 'Project C',
+    name: 'Super Trunfo',
     description:
-      'teste texto teste texto teste texto testetexto teste texto testetexto teste texto testetexto teste texto teste',
-    image: stock,
+      'Já jogou super-trunfo? E que tal criar os seus próprios cards?',
+    image: project4Cover,
+    bg: project4Bg
   },
   {
     id: 4,
-    name: 'Project D',
+    name: 'To-Do List',
     description:
-      'teste texto teste texto teste texto testetexto teste texto testetexto teste texto testetexto teste texto teste',
-    image: stock,
+      'Aquela lista de tarefas básica e simples pra te ajudar a lidar com a procastinação',
+    image: project3Cover,
+    bg: project3Bg
   },
   {
     id: 5,
-    name: 'Project E',
+    name: 'Formulários',
     description:
-      'teste texto teste texto teste texto testetexto teste texto testetexto teste texto testetexto teste texto teste',
-    image: stock,
-  },
-  {
-    id: 6,
-    name: 'Project F',
-    description:
-      'teste texto teste texto teste texto testetexto teste texto testetexto teste texto testetexto teste texto teste',
-    image: stock,
+      'Monte seu formulário, estilizado e 100% do seu jeitinho (por mais bizarro que ele seja)',
+    image: project5Cover,
+    bg: project5Bg
   },
 ];
 

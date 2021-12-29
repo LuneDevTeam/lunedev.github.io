@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 
 export default class Title extends Component {
 	render() {
-		const { aboutTitle } = this.props;
+		const { title } = this.props;
 		return (
 			<div className='title'>
-				<h1>{ aboutTitle }</h1>
+				<h1>{ title }</h1>
 			</div>
 		)
 	}
