@@ -1,6 +1,5 @@
 import React from 'react';
 import Employees from '../components/Employees';
-import Footer from '../components/Footer';
 import Paragraph from '../components/Paragraph';
 import Title from '../components/Title';
 import employees from '../data/employees-data';

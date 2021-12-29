@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../components/Footer"
 
 class Main extends React.Component {
   render() {

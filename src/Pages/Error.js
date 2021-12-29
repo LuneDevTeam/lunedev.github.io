@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../components/Footer"
 
 class Error extends React.Component {
   render() {

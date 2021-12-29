@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../components/Footer';
 import ProjectCard from '../components/ProjectCard';
 import Title from '../components/Title';
 import projectsData from '../data/projectsData';
