@@ -1,6 +1,7 @@
 import React from "react";
 import CarouselDiv from "../components/CarouselDiv";
 import Footer from "../components/Footer"
+import Insta from "../components/Insta";
 import WelcomeSection from "../components/WelcomeSection";
 import lunelogo from "../images/logo_lune.png"
 
@@ -8,13 +9,15 @@ class Main extends React.Component {
   render() {
     return(
       <div>
-        <WelcomeSection />
+
+        <Insta />
+        {/* <WelcomeSection />
         <div className="home-logo">
           <img src={lunelogo} alt="logo da Lune" />
         </div>
         <CarouselDiv />
         
-        <Footer /> 
+        <Footer />  */}
       </div>
     )
   }
