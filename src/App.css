@@ -41,7 +41,7 @@
 .footer {
   background-color: white;
   grid-area: footer;
-  margin-top: 3vh;
+  margin-top: 20vw;
   width: 100%;
 }
 
@@ -305,12 +305,6 @@ label {
 
 /* 404 page */
 
-.error-page {
-  height: 80vh;
-  background-image: url(images/Site/bg_404.png);
-}
-
 .error-page-img {
-  display: block;
-  width: 100vw;
+  width: 80vw;
 }

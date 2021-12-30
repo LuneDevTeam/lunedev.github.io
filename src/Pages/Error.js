@@ -5,9 +5,11 @@ import LostTxt from "../images/Site/404_text_small.png"
 class Error extends React.Component {
   render() {
     return(
-      <div className="error-page">
+      <div>
+      <div className="content">
         <img className="error-page-img" src={Err404} alt="error 404" />
         <img className="error-page-img" src={LostTxt} alt="Lost in Space" />
+      </div>
       </div>
     )
   }
