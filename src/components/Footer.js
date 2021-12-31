@@ -8,8 +8,6 @@ class Footer extends React.Component {
         <img src={footerYear} alt="2021" />
       </footer>
     ) 
-
-
   }
 }
 
