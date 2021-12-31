@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import "@ptkdev/webcomponent-instagram-widget";
+import Title from './Title';
 
 export default class Insta extends Component {
 
@@ -17,7 +18,7 @@ export default class Insta extends Component {
 
 		return (
 			<div className='instagram-div'>
-				<h1>Instagram</h1>
+				<Title title="Instagram" />
 				<a id="instafeed" href="https://www.instagram.com/lune_dev">
 				{instaRender()}
 </a> 

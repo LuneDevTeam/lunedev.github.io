@@ -1,14 +1,14 @@
 import React from "react";
 import CarouselDiv from "../components/CarouselDiv";
-import Footer from "../components/Footer"
 import Insta from "../components/Insta";
 import WelcomeSection from "../components/WelcomeSection";
+import SocialIcons from "../components/SocialIcons"
 import lunelogo from "../images/logo_lune.png"
 
 class Main extends React.Component {
   render() {
     return(
-      <div>        
+      <div className="content">        
         <WelcomeSection />
         <div className="home-logo">
           <img src={lunelogo} alt="logo da Lune" />
@@ -17,8 +17,8 @@ class Main extends React.Component {
         {/* Section */}
         {/* video */}
         <Insta />
-        {/* icons */}
-        <Footer /> 
+        <SocialIcons />
+        
       </div>
     )
   }
@@ -29,7 +29,7 @@ export default Main;
 // TODO:   component section home
 //        não sei fazer
 //        component instagram > h1 > insta da lune
-//        componnent com botões
+//        componnent com botõ
 
 
 // TODO: Componente 1 - WelcomeSection
