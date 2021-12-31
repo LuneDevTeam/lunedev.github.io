@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import stock from '../images/stockIMG.jpg';
-import * as FaIcons from 'react-icons/fa';
+// import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
+
+import logoHeader from '../images/Site/logotype_white.png';
+import navBurger from '../images/Site/icon_burger.png'
+// falta bg do nav
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
@@ -11,16 +14,17 @@ function Navbar() {
 
   return (
     <div className="header">
+      
       <div className="navbar">
-        <img src={stock} alt="lune-logo" className="logo-navbar" />
+        <img src={logoHeader} alt="lune-logo" className="logo-navbar" />
         <Link to="#" className="menu-bars">
-          <FaIcons.FaBars onClick={showSidebar} />
+          <img src={navBurger} alt="burger" onClick={showSidebar} />
         </Link>
       </div>
       <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
         <ul className="nav-menu-items" onClick={showSidebar}>
           <li className="navbar-toggle">
-            <Link to="#" className="menu-bars">
+            <Link to="#" className="menu-close">
               <AiIcons.AiOutlineClose />
             </Link>
           </li>

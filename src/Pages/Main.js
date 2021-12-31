@@ -8,9 +8,7 @@ import lunelogo from "../images/logo_lune.png"
 class Main extends React.Component {
   render() {
     return(
-      <div>
-
-        
+      <div>        
         <WelcomeSection />
         <div className="home-logo">
           <img src={lunelogo} alt="logo da Lune" />
