@@ -310,37 +310,34 @@ label {
   width: 80vw;
 }
 
-.welcome {
+/* .welcome {
   background-image: url("images/bg_ball.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 150vw 500px;
+  background-size: 150vw 10vw;
   background-position: center top -230px;
   height: 200px;
   width: 100%;
-}
+} */
 
-.welcome-section {
-  
-  display:flex;
-
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5vh;
+  margin-top: 3vh;
 }
 
 button {
   padding: 1px;
   border: none;
-  position: relative;
-  width: 90px;
-  height: 22px;
-  color: white;
-  background: #8415EE;
+  width: 30vw;
+  height: 4vh;
+  background-color: #8415ee;
   border-radius: 19px;
   font-family: Arial;
   font-style: normal;
   font-weight: bold;
-  line-height: 13px;
-  align-items: center;
-  text-align: center;
   color: #FFFFFF;
 }
 
@@ -350,41 +347,48 @@ a {
   font-style: normal;
   font-weight: bold;
   font-size: 11px;
-  line-height: 13px;
 }
 
 .home-logo {
-  display: flex;
-  padding: 30%;
-  height: 20vh;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  /* display: flex; */
+}
+
+.home-logo img {
+  width: 40vw;
 }
 /* Carousel */
 
-.carousel {
- min-width: 10vw; /* mudar o query da desktop diminuindo isso pra 70~80vw */
-padding: 0px;
-}
-
-
 .carrousel-div {
-  min-height: 
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vh;
 }
 
+.carousel {
+  min-width: 75vw; /* mudar o query da desktop diminuindo isso pra 70~80vw */
+}
 
+.image-gallery-svg {
+  position: relative;
+  bottom: 3vh;
+}
 /* Instagram */
 
 #instafeed {
   display: flex;
   flex-flow: row wrap;
-  border: solid white;
+  border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: 10px;
-  padding: 10px;
-  margin: auto 10px;
+  margin-top: 3vh;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  justify-content: space-evenly;
 }
 
 .instapost {
   width: 30vw;
-  margin: 15px auto;
   border-radius: 10px;
 }
 

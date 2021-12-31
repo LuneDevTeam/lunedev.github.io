@@ -3,18 +3,14 @@ import Title from '../components/Title';
 import Paragraph from '../components/Paragraph';
 import Button from './Button';
 
-const paragraphContent = `What we do, What we do,
-What we do, What we do,
-What we do, What we do,
-What we do, What we do `;
+const paragraphContent = `Bem vindos à Lune Dev. Aqui nós damos a seu site a cara que você preferir! Tudo isso de forma descontraída e super profissional.`;
 
 export default class WelcomeSection extends Component {
 	render() {
 		return (
 			<div className='welcome'>
-			<Title aboutTitle="What We Do" className="welcome-title"/>
-			<Paragraph paragraphContent={paragraphContent} />
-			<Button infoButton="About Us" linkButton="https://www.google.com/"/>
+			<Paragraph className="main-paragraph" paragraphContent={paragraphContent} />
+			<Button infoButton="Sobre Nós" linkButton="https://www.google.com/"/>
 			</div>
 		)
 	}
