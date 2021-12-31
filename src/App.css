@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 /* General */
@@ -307,4 +308,104 @@ label {
 
 .error-page-img {
   width: 80vw;
+}
+
+/* .welcome {
+  background-image: url("images/bg_ball.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 150vw 10vw;
+  background-position: center top -230px;
+  height: 200px;
+  width: 100%;
+} */
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5vh;
+  margin-top: 3vh;
+}
+
+button {
+  padding: 1px;
+  border: none;
+  width: 30vw;
+  height: 4vh;
+  background-color: #8415ee;
+  border-radius: 19px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.home-logo {
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  /* display: flex; */
+}
+
+.home-logo img {
+  width: 40vw;
+}
+/* Carousel */
+
+.carrousel-div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vh;
+}
+
+.carousel {
+  min-width: 75vw; /* mudar o query da desktop diminuindo isso pra 70~80vw */
+}
+
+.image-gallery-svg {
+  position: relative;
+  bottom: 3vh;
+}
+/* Instagram */
+
+#instafeed {
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  margin-top: 3vh;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  justify-content: space-evenly;
+}
+
+.instapost {
+  width: 30vw;
+  border-radius: 10px;
+}
+
+/* Social Icons */
+
+
+
+.icons {
+  font-size: 50px;
+  border-radius: 40%;
+  justify-content: flex-end;
+}
+
+.social-icons {
+  width: 100vw;
+  min-height: 19vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
