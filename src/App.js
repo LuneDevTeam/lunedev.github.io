@@ -9,6 +9,7 @@ import Contact from './Pages/Contact';
 import Error from './Pages/Error';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import MainPage from './Pages/MainPage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
+          <Route path="/main-page" element={<MainPage />} />
           <Route path="/" element={<Main />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/projects" element={<Projects />} />

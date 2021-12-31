@@ -42,7 +42,7 @@
 .footer {
   background-color: white;
   grid-area: footer;
-  margin-top: 20vw;
+  /* margin-top: 20vw; */
   width: 100%;
 }
 
@@ -309,6 +309,47 @@ label {
 .error-page-img {
   width: 80vw;
 }
+
+/* main page */
+
+#main-page-img1 {
+  display: block;
+  margin: auto;
+  width: 30vw;
+}
+
+#main-page-img2 {
+  display: block;
+  margin: auto;
+  width: 100vw;
+}
+
+.main-page-bg {
+  background-image: url(../src/images/Site/bg_main.png);
+  background-size: cover;
+  height: 85vh;
+}
+
+.main-page-links {
+  font-size: 3vh;
+  font-weight:bold;
+  text-decoration: none;
+  color: white;
+  margin-left: 5vw;
+}
+
+.icon-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7%;
+}
+
+.icon-style:hover {
+  color: rgb(169, 25, 253);
+  background-color: white;
+  text-decoration: none;
+  border-radius: 5px;
 
 /* .welcome {
   background-image: url("images/bg_ball.png");
