@@ -42,8 +42,8 @@ class MainPage extends React.Component {
               Site
             </Link>
           </div>
-    </main>
-  </div>
+      </main>
+    </div>
     )
   }
 }

@@ -345,11 +345,11 @@ label {
   margin: 7%;
 }
 
-.icon-style:hover {
-  color: rgb(169, 25, 253);
+.main-page-links:hover {
+  color: black;
   background-color: white;
-  text-decoration: none;
   border-radius: 5px;
+}
 
 /* .welcome {
   background-image: url("images/bg_ball.png");
