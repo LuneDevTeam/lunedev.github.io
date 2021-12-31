@@ -10,14 +10,17 @@ class Main extends React.Component {
     return(
       <div>
 
-        <Insta />
-        {/* <WelcomeSection />
+        
+        <WelcomeSection />
         <div className="home-logo">
           <img src={lunelogo} alt="logo da Lune" />
         </div>
         <CarouselDiv />
-        
-        <Footer />  */}
+        {/* Section */}
+        {/* video */}
+        <Insta />
+        {/* icons */}
+        <Footer /> 
       </div>
     )
   }

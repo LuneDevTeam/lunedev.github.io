@@ -17,6 +17,7 @@ export default class Insta extends Component {
 
 		return (
 			<div className='instagram-div'>
+				<h1>Instagram</h1>
 				<a id="instafeed" href="https://www.instagram.com/lune_dev">
 				{instaRender()}
 </a> 
