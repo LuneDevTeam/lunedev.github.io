@@ -56,7 +56,7 @@ class Contact extends React.Component {
                 required
               />
             <label htmlFor="userText" className="message">
-              Late que eu ouço!
+              Como podemos te ajudar?
             </label>
               <textarea
                 onChange={this.handleChange}
@@ -65,7 +65,7 @@ class Contact extends React.Component {
                 form="userForm"
                 required
               />
-            <Button className="submit-btn" typeButton="submit" infoButton="Enviar" />
+            <Button typeButton="submit" infoButton="Enviar" />
           </form>
           <div>
             <iframe
