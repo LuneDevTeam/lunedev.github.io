@@ -466,7 +466,7 @@ a {
 @media only screen and (min-width: 1200px) {
 
   .title {
-    font-size: 9em;
+    font-size: 6rem;
     margin-top: 3vh;
     grid-area: title;
     color: #8415ee;
@@ -570,8 +570,10 @@ a {
   .footer {
     background-color: white;
     grid-area: footer;
+    height: fit-content;
     margin-top: -7vh;
     width: 100%;
+    margin-bottom:;
   }
 
   .footer img {
@@ -735,11 +737,8 @@ opacity: 0;
 }
 
 .main-page-bg {
-
-  background-color: #8415ee;
-  height:fit-content; 
-  background-attachment: fixed;
-  margin-bottom: 7vh;
+background-image: url(../src/images/Site/bg_main.png);
+background-size: cover;
 }
 
 .main-page-links:hover {
