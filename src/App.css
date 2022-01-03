@@ -42,7 +42,6 @@
 .footer {
   background-color: white;
   grid-area: footer;
-  /* margin-top: 20vw; */
   width: 100%;
 }
 
@@ -571,9 +570,8 @@ a {
     background-color: white;
     grid-area: footer;
     height: fit-content;
-    margin-top: -7vh;
     width: 100%;
-    margin-bottom:;
+    margin-bottom: 0;
   }
 
   .footer img {
