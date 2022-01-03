@@ -4,6 +4,8 @@ import LuneDev from "../images/Site/logotype_white.png";
 import { RiLinkedinBoxFill, RiFacebookBoxFill, RiInstagramFill, RiWhatsappFill } from 'react-icons/ri';
 import { BsGlobe2 } from 'react-icons/bs'
 import { Link } from "react-router-dom";
+import Title from "../components/Title";
+import "./Mainpage.css"
 
 class MainPage extends React.Component {
   render() {

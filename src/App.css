@@ -23,7 +23,7 @@
 }
 
 .title {
-  font-size: 5vw;
+  font-size: 3rem;
   margin-top: 3vh;
   grid-area: title;
   color: #8415ee;
@@ -42,7 +42,6 @@
 .footer {
   background-color: white;
   grid-area: footer;
-  /* margin-top: 20vw; */
   width: 100%;
 }
 
@@ -59,6 +58,7 @@
   background: url(../src/images/Site/bg_main.png);
   grid-area: navbar;
   background-color: #8415ee;
+  background-attachment: fixed;
   height: 80px;
   display: flex;
   align-items: center;
@@ -302,6 +302,10 @@ label {
 
 /* main page */
 
+svg {
+  width: 10vh;
+}
+
 #main-page-img1 {
   display: block;
   margin: auto;
@@ -316,9 +320,14 @@ label {
 
 .main-page-bg {
   background-image: url(../src/images/Site/bg_main.png);
-  background-size: cover;
-  height: 85vh;
+
+  height:95vh; 
+  background-attachment: fixed;
+  
 }
+
+
+
 
 .main-page-links {
   font-size: 3vh;
@@ -442,9 +451,19 @@ a {
   align-items: center;
 }
 
+
+
 @media only screen and (min-width: 1200px) {
 
-  button {
+
+  .title {
+    font-size: 6rem;
+    margin-top: 3vh;
+    grid-area: title;
+    color: #8415ee;
+  }
+
+      button {
     padding: 1px;
     margin-bottom: 3vh;
     border: none;
@@ -557,8 +576,9 @@ a {
   .footer {
     background-color: white;
     grid-area: footer;
-    margin-top: -7vh;
+    height: fit-content;
     width: 100%;
+    margin-bottom: 0;
   }
 
   .footer img {
@@ -630,7 +650,7 @@ label {
 .content {
   display: flex;
   align-items: center;
-  
+  left: 50px;
 } 
 
 .projects-container h1 {
@@ -709,20 +729,15 @@ opacity: 0;
 .icon-style {
   margin:3.5vh;
 }
-.icon-style svg {
-  
-}
+
 
 .main-page-links {
   margin-left: 2vh;
 }
 
 .main-page-bg {
-
-  background-color: #8415ee;
-  height:fit-content; 
-  background-attachment: fixed;
-  margin-bottom: 7vh;
+background-image: url(../src/images/Site/bg_main.png);
+background-size: cover;
 }
 
 .main-page-links:hover {
@@ -741,21 +756,42 @@ text-decoration: none;
 background-color: #FFFFFF;
 padding: 0.5vh;
 border-radius: 13px;
-color: #c018f8;
 }
 
-.icon-style a:hover, .icon-style path:hover {
- 
-  
+.icon-style a:hover{
+  background-image: url(../src/images/Site/bg_main.png);
+  background-clip: text;
+-webkit-background-clip: text;
+background-attachment:fixed;
+background-size: cover;
+color: transparent;
+text-align: center;
 
   }
 
-  
+  .icon-style path:hover {
+  color: #C018F8;
+  }
 
 #test {
   background-image: url(../src/images/Site/bg_main.png);
   
 }
 
+
+.ruler {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+}
+
+.content {
+  width: fit-content;
+margin-left: 5vw;
+  display: flex;
+  justify-content: itens;
+}
 
 }
