@@ -9,7 +9,7 @@ class Projects extends React.Component {
   render() {
 
     return (
-      <div>
+      <div className = "ruler">
         <div className="title" ><Title title={ 'Projetos' }/></div>
         <div className="content">
           <div className="projects-container">

@@ -649,7 +649,7 @@ label {
 .content {
   display: flex;
   align-items: center;
-  
+  left: 50px;
 } 
 
 .projects-container h1 {
@@ -777,5 +777,20 @@ text-align: center;
   
 }
 
+
+.ruler {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+}
+
+.content {
+  width: fit-content;
+margin-left: 5vw;
+  display: flex;
+  justify-content: itens;
+}
 
 }
