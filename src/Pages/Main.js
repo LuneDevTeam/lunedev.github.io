@@ -20,7 +20,7 @@ class Main extends React.Component {
 
           <Carousel />
 
-          <Button infoButton="Veja Mais" />
+          <Button linkButton="http://localhost:3000/projects" typeButton="button" infoButton="Veja Mais" />
         </div>
         {/* Section */}
         {/* video */}

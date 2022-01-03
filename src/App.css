@@ -289,16 +289,6 @@ label {
   text-align: center;
 }
 
-.submit-btn {
-  align-self: center;
-  margin-bottom: 3vh;
-  background-color: #8415ee;
-  border-radius: 20px;
-  width: 30vw;
-  color: white;
-  padding: 7px;
-}
-
 .contact-map {
   width: 90vw;
   height: 30vh;
@@ -371,6 +361,7 @@ label {
 
 button {
   padding: 1px;
+  margin-bottom: 3vh;
   border: none;
   width: 30vw;
   height: 4vh;
@@ -452,6 +443,21 @@ a {
 }
 
 @media only screen and (min-width: 1200px) {
+
+  button {
+    padding: 1px;
+    margin-bottom: 3vh;
+    border: none;
+    width: 20vw;
+    height: 5vh;
+    background-color: #8415ee;
+    border-radius: 19px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #FFFFFF;
+  }
 
   .logo-navbar {
     width: 30vh;
@@ -600,12 +606,6 @@ label {
   font-size: 2rem;
 }
 
-.submit-btn {
-  width: 15vh;
-  font-size: 1rem;
-  font-weight:bolder;
-  border-style:none;
-}
 /* contact ^ */
 
 .project-description{
