@@ -22,6 +22,7 @@ class About extends React.Component {
         <Paragraph paragraphContent={manifesto} />
         <img src={logotype} className="about-logotype" alt="Logotipo da Lune" />
         <Title title="TEAM" />
+        <div className = "luners">
         {employees.map((empregado) => {
           return (
             <Employees
@@ -35,7 +36,7 @@ class About extends React.Component {
               employeeSide={empregado.id % 2 === 0 ? 'employee-side-right' : 'employee-side-left'}
             />
           );
-        })}
+        })} </div>
       </div>
     );
   }

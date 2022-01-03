@@ -9,7 +9,7 @@ import Title from "../components/Title";
 class MainPage extends React.Component {
   render() {
     return(
-    <div className="main-page-bg">
+  <div className="main-page-bg">
       <div className="title">
         <Title title="Bem vindo" />
       </div>
@@ -18,6 +18,7 @@ class MainPage extends React.Component {
           <img id="main-page-img1" src={LuneLogo} alt="lune logo" />
           <img id="main-page-img2" src={LuneDev} alt="lune logo" />
         </div>
+        <div className="links">
           <div className="icon-style">
             <RiLinkedinBoxFill size={34} />
             <a className="main-page-links" href="https://www.linkedin.com/company/lune-dev/">LinkedIn</a>
@@ -41,6 +42,7 @@ class MainPage extends React.Component {
             <Link className="main-page-links nav-buttons" to="/">
               Site
             </Link>
+          </div>
           </div>
       </main>
     </div>

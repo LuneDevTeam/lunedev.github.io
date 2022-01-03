@@ -9,6 +9,7 @@ import project2Cover from '../images/Projetos/cover_solar_system.png';
 import project3Cover from '../images/Projetos/cover_to_do_list.png';
 import project4Cover from '../images/Projetos/cover_trunfo.png';
 import project5Cover from '../images/Projetos/cover_trybe_warts.png';
+import project6Cover from '../images/Projetos/cover_pixel_art.png'
 
 const projectsData = [
   {
@@ -29,7 +30,7 @@ const projectsData = [
   },
   {
     id: 3,
-    name: 'Super Trunfo',
+    name: 'Trunfo',
     description:
       'Já jogou super-trunfo? E que tal criar os seus próprios cards?',
     image: project4Cover,
@@ -45,11 +46,18 @@ const projectsData = [
   },
   {
     id: 5,
-    name: 'Formulários',
+    name: 'Forms',
     description:
       'Monte seu formulário, estilizado e 100% do seu jeitinho (por mais bizarro que ele seja)',
     image: project5Cover,
     bg: project5Bg
+  },
+  {
+    id: 6,
+    name: 'Pixel Art',
+    description:
+      'Use sua criatividade, desenhe com cores aleatórias toda vez e altere livremente o tamanho dos seus quadrados',
+    image: project6Cover,
   },
 ];
 
