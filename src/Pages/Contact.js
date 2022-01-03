@@ -1,5 +1,6 @@
 import emailjs from 'emailjs-com';
 import React from 'react';
+import Button from '../components/Button';
 import Title from '../components/Title';
 
 class Contact extends React.Component {
@@ -64,7 +65,7 @@ class Contact extends React.Component {
                 form="userForm"
                 required
               />
-            <button type="submit" className="submit-btn">Enviar</button>
+            <Button className="submit-btn" typeButton="submit" infoButton="Enviar" />
           </form>
           <div>
             <iframe
