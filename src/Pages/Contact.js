@@ -1,5 +1,6 @@
 import emailjs from 'emailjs-com';
 import React from 'react';
+import Button from '../components/Button';
 import Title from '../components/Title';
 
 class Contact extends React.Component {
@@ -55,7 +56,7 @@ class Contact extends React.Component {
                 required
               />
             <label htmlFor="userText" className="message">
-              Late que eu ouço!
+              Como podemos te ajudar?
             </label>
               <textarea
                 onChange={this.handleChange}
@@ -64,7 +65,7 @@ class Contact extends React.Component {
                 form="userForm"
                 required
               />
-            <button type="submit" className="submit-btn">Enviar</button>
+            <Button typeButton="submit" infoButton="Enviar" />
           </form>
           <div>
             <iframe

@@ -11,9 +11,6 @@ class MainPage extends React.Component {
   render() {
     return(
   <div className="main-page-bg">
-      <div className="title">
-        <Title title="Bem vindo" />
-      </div>
     <main className="content">
         <div>
           <img id="main-page-img1" src={LuneLogo} alt="lune logo" />

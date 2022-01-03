@@ -1,22 +1,37 @@
 import React from 'react'	 
-import car0 from '../images/car0.png'
-import car2 from '../images/car2.png'
-import car3 from '../images/car3.png'
+import Portfolio from '../images/Projetos/cover_gero_portif.png';
+import SolarSystem from '../images/Projetos/cover_solar_system.png';
+import Trunfo from '../images/Projetos/cover_trunfo.png';
+import ToDoList from '../images/Projetos/cover_to_do_list.png';
+import Forms from '../images/Projetos/cover_trybe_warts.png';
+import PixelArt from '../images/Projetos/cover_pixel_art.png';
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
 
 const images = [
   {
-    original: car0,	
-    thumbnail: car0,
+    original: Portfolio,	
+    thumbnail: Portfolio,
   },
   {
-    original: car2,
-    thumbnail: car2,
+    original: SolarSystem,
+    thumbnail: SolarSystem,
   },
 	{
-    original: car3,
-    thumbnail: car3,
+    original: Trunfo,
+    thumbnail: Trunfo,
+  },
+  {
+    original: ToDoList,
+    thumbnail: ToDoList,
+  },
+  {
+    original: Forms,
+    thumbnail: Forms,
+  },
+  {
+    original: PixelArt,
+    thumbnail: PixelArt,
   },
 ];
 
@@ -24,8 +39,9 @@ export default class Carousel extends React.Component {
   render() {
     return <ImageGallery 
 		additionalClass='carousel' 
-		items={images} 
-		showNav={true}
+		items={images}
+    showFullscreenButton={false}
+		showNav={false}
 		showThumbnails={false}
 		showPlayButton={false}
 		autoPlay={true}
