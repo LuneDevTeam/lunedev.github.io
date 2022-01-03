@@ -25,7 +25,7 @@ export default class Carousel extends React.Component {
     return <ImageGallery 
 		additionalClass='carousel' 
 		items={images} 
-		showNav={true}
+		showNav={false}
 		showThumbnails={false}
 		showPlayButton={false}
 		autoPlay={true}
