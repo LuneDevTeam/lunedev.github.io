@@ -10,8 +10,7 @@ import logotype from '../images/Site/logotype_white.png'
 
 const paragraphContent = `A Lune nasceu com a vontade de atender a demanda de websites com uma cara jovem e despojada, visando sempre a diversidade e o humor. Para nós, o seu desejo é uma ordem! Venha conhecer a nossa equipe!`;
 
-const manifesto = `As transformações no mundo do trabalho não trouxeram para os trabalhadores nenhum ganho qualitativo, ao contrário, impuseram-lhes mais tempo de trabalho, mais insegurança, mais empobrecimento e ausência de futuro. Precarizaram as suas vidas e confiscaram o seu direito de sonhar.
-Ainda é tempo de lutar. Uni-vos!`;
+const manifesto = `Papel e caneta criam ideias, assinam contratos, e até mesmo salvam vidas. O começo de algo que pode durar uma eternidade, normalmente se começa com um papel e uma caneta. Sejam piadas, manifestos como este, e até mesmo sites. Porém, um papel e uma caneta sem seu 'condutor' não são nada. Esses objetos não tem criatividade, vontade, paixão ou vida. Porém, são ótimas ferramentas que podem te levar à lua (e até mesmo te salvar caso esteja preso). E é com todos esses valores que esperamos usar papel e caneta para escrever não só o nosso futuro, como o futuro de todos que cruzarem com a gente. Ser Lune é ser operador de papéis e canetas. É usar eles para tocar os céus. É ir mais distante do que poderia se imaginar.`;
 
 class About extends React.Component {
   render() {

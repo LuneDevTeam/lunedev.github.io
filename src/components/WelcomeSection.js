@@ -10,7 +10,7 @@ export default class WelcomeSection extends Component {
 		return (
 			<div className='welcome'>
 			<Paragraph className="main-paragraph" paragraphContent={paragraphContent} />
-			<Button infoButton="Sobre Nós" linkButton="https://www.google.com/"/>
+			<Button infoButton="Sobre Nós" linkButton="http://localhost:3000/about-us"/>
 			</div>
 		)
 	}
