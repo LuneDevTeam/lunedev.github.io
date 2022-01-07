@@ -6,6 +6,7 @@ import lunelogo from '../images/logo_lune.png';
 import Button from '../components/Button';
 import Title from '../components/Title';
 import Carousel from '../components/Carousel';
+import YoutubeVideo from '../components/YoutubeVideo';
 
 class Main extends React.Component {
   render() {
@@ -22,8 +23,7 @@ class Main extends React.Component {
 
           <Button linkButton="http://localhost:3000/projects" typeButton="button" infoButton="Veja Mais" />
         </div>
-        {/* Section */}
-        {/* video */}
+        <YoutubeVideo />
         <Insta />
         <SocialIcons />
         </div>
