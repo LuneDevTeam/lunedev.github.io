@@ -451,6 +451,9 @@ a {
   align-items: center;
 }
 
+.youtube-video {
+  width: 100%;
+}
 
 
 @media only screen and (min-width: 1200px) {
@@ -792,6 +795,11 @@ align-items: center;
 margin-left: 5vw;
   display: flex;
   justify-content: itens;
+}
+
+.youtube-video {
+  height: 50vh;
+  width: 50vw;
 }
 
 }
