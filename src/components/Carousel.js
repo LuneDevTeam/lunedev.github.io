@@ -1,37 +1,27 @@
 import React from 'react'	 
-import Portfolio from '../images/Projetos/cover_gero_portif.png';
-import SolarSystem from '../images/Projetos/cover_solar_system.png';
-import Trunfo from '../images/Projetos/cover_trunfo.png';
-import ToDoList from '../images/Projetos/cover_to_do_list.png';
-import Forms from '../images/Projetos/cover_trybe_warts.png';
-import PixelArt from '../images/Projetos/cover_pixel_art.png';
+import Car0 from '../images/Carrossel/car0.png';
+import Car1 from '../images/Carrossel/car1.png';
+import Car2 from '../images/Carrossel/car2.png';
+import Car3 from '../images/Carrossel/car3.png';
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
 
 const images = [
   {
-    original: Portfolio,	
-    thumbnail: Portfolio,
+    original: Car0,	
+    thumbnail: Car0,
   },
   {
-    original: SolarSystem,
-    thumbnail: SolarSystem,
+    original: Car1,
+    thumbnail: Car1,
   },
 	{
-    original: Trunfo,
-    thumbnail: Trunfo,
+    original: Car2,
+    thumbnail: Car2,
   },
   {
-    original: ToDoList,
-    thumbnail: ToDoList,
-  },
-  {
-    original: Forms,
-    thumbnail: Forms,
-  },
-  {
-    original: PixelArt,
-    thumbnail: PixelArt,
+    original: Car3,
+    thumbnail: Car3,
   },
 ];
 
