@@ -28,14 +28,3 @@ export default class Insta extends Component {
 		)
 	}
 }
-
-
-// criar uma div que dentro dessa div vai renderizar 12 quadrados para cada imagem
-// da pra fazer com o loop for pq o parametro da jpg é um numero
-
-
-{/* <img src="https://profilepageimages.usecue.com/images/lune_dev/small/0.jpg" alt='1'/>
-  <img src="https://profilepageimages.usecue.com/images/lune_dev/small/1.jpg" alt='1'/>
-  <img src="https://profilepageimages.usecue.com/images/lune_dev/small/2.jpg" alt='1'/>
-  <img src="https://profilepageimages.usecue.com/images/lune_dev/small/3.jpg" alt='1'/>
-  <img src="https://profilepageimages.usecue.com/images/lune_dev/small/4.jpg" alt='1'/> */}

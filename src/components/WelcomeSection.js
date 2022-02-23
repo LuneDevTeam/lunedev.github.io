@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Title from '../components/Title';
+// import Title from '../components/Title';
 import Paragraph from '../components/Paragraph';
 import Button from './Button';
 
